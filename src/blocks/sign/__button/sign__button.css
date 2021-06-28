@@ -1,0 +1,48 @@
+.sign__button {
+  display: block;
+  width: 100%;
+  padding: 13px 0;
+  background-color: #3456f3;
+  border: 0;
+  border-radius: 3px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  transition: opacity .3s;
+}
+
+.sign__button:disabled {
+  background-color: #f8f8f8;
+  color: #c2c2c2;
+  opacity: .8;
+  cursor: default;
+}
+
+.sign__button:hover {
+  opacity: .8;
+}
+
+.sign__preloader {
+  display: block;
+  width: 100%;
+  padding: 21px 0;
+  background-color: #3456f3;
+  background-image: url('../../../images/preloader.svg');
+  background-position: center;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  cursor: default;
+  opacity: .8;
+}
+
+@media screen and (min-width: 600px) {
+  .sign__button {
+    font-size: 14px;
+    line-height: 1.21;
+  }
+}

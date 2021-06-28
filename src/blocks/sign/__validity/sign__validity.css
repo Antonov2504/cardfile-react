@@ -1,0 +1,9 @@
+.sign__validity {
+  width: 100%;
+  margin: 5px 0;
+  font-family: inherit;
+  font-size: 10px;
+  line-height: 1.2;
+  color: #ee3465;
+  position: relative;
+}

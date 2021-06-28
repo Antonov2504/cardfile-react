@@ -1,0 +1,17 @@
+.sign__input {
+  width: 100%;
+  padding: 15px;
+  background-color: #f4f4f4;
+  border: 0;
+  border-radius: 8px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.23;
+  color: inherit;
+  box-sizing: border-box;
+}
+
+.sign__input:focus {
+  outline: 1px solid #3456f3;
+}

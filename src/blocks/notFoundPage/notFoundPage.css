@@ -1,0 +1,25 @@
+.notFoundPage {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 30px * 2);
+  max-width: 400px;
+  padding: 4vh 0;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 600px) {
+  .notFoundPage {
+    width: calc(100% - 70px * 2);
+    padding: 22vh 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .notFoundPage {
+    padding: 9vh 0;
+  }
+}

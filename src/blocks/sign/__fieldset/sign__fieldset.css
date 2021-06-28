@@ -1,0 +1,13 @@
+.sign__fieldset {
+  min-height: 335px;
+  margin: 0 0 7.7vh;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 600px) {
+  .sign__fieldset {
+    margin: 0;
+  }
+}
