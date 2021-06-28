@@ -1,0 +1,10 @@
+.sign__error {
+  width: 100%;
+  margin: 20px 0;
+  font-family: inherit;
+  font-size: 11px;
+  line-height: 1.2;
+  color: #ee3465;
+  text-align: center;
+  position: relative;
+}

@@ -1,0 +1,10 @@
+.logo {
+  padding: 10px 15px;
+  border-radius: 50%;
+  background-color: #3456f3;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.05;
+  color: #fff;
+  box-sizing: border-box;
+}
