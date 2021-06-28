@@ -78,6 +78,7 @@ function App() {
 
   // Обработчик по кнопке Войти
   function handleLogin(email, password) {
+    console.log('handleLogin');
     setIsLoadingSignin(true);
     setIsErrorSigninResponse({
       ...isErrorSigninResponse,
@@ -88,6 +89,7 @@ function App() {
         setIsLoadingSignin(false);
         if (data.token) {
           setLoggedIn(true);
+          history.push('/');
           // mainApi.getUserInfo()
           //   .then(res => {
           //     setCurrentUser({ ...res.data });
@@ -99,7 +101,7 @@ function App() {
           setIsErrorSigninResponse({
             ...isErrorSigninResponse,
             status: true,
-            message: data.message
+            message: JSON.parse(data).error
           });
         }
       })
