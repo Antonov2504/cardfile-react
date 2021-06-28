@@ -7,6 +7,7 @@
 @import url('./blocks/notFoundPage/__container/notFoundPage__container.css');
 @import url('./blocks/notFoundPage/__subtitle/notFoundPage__subtitle.css');
 @import url('./blocks/notFoundPage/__title/notFoundPage__title.css');
+@import url('./blocks/header/header.css');
 @import url('./blocks/logo/logo.css');
 @import url('./blocks/logo/_align_left/logo\)align_left.css');
 @import url('./blocks/sign/sign.css');
@@ -20,3 +21,5 @@
 @import url('./blocks/sign/__input/_type/sign__input_type_error.css');
 @import url('./blocks/sign/__label/sign__label.css');
 @import url('./blocks/sign/__validity/sign__validity.css');
+@import url('./blocks/footer/footer.css');
+@import url('./blocks/footer/__text/footer__text.css');
