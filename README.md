@@ -10,15 +10,7 @@
 
 В данном репозитории представлен проект - картотека пользователей. Front-end разработан для API reqres.in. В приложении представлена страница входа и главная страница со списком пользователей. Функционал включает создание, редактирование и удаление пользователей, а также загрузку пользователей по скроллу страницы.
 
-* [Ссылка на проект](https://antonov.movies-explorer.nomoredomains.club)
-
-**Figma**
-
-* [Ссылка на макет в Figma](https://www.figma.com/file/ChRfbQTo3stya42rGQ3dp5/Diploma-Copy)
-
-**Картинки**
-
-[Оптимизированы](https://tinypng.com/)
+* [Ссылка на проект](https://antonov2504.github.io/cardfile-react/)
 
 **Технологии**
 
@@ -34,8 +26,8 @@
 
 **Установка**
 
-Проект можно скачать себе и развернуть локально из гитхаб репозитория [movies-explorer-frontend](https://github.com/Antonov2504/movies-explorer-frontend), командой:
+Проект можно скачать себе и развернуть локально из гитхаб репозитория [cardfile-react](https://github.com/Antonov2504/cardfile-react), командой:
  ```html
-$ git clone https://github.com/Antonov2504/movies-explorer-frontend.git
+$ git clone https://github.com/Antonov2504/cardfile-react.git
 $ npm run start
 ```
