@@ -1,0 +1,9 @@
+.cards_quantity_max {
+  margin: 0 0 110px;
+}
+
+@media screen and (min-width: 600px) {
+  .cards_quantity_max {
+    margin: 0 0 140px;
+  }
+}

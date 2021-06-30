@@ -1,12 +1,27 @@
-// import Promo from '../Promo/Promo';
-// import AboutProject from '../AboutProject/AboutProject';
-// import Techs from '../Techs/Techs';
-// import AboutMe from '../AboutMe/AboutMe';
-// import Portfolio from '../Portfolio/Portfolio';
+import React from 'react';
+import Preloader from './Preloader';
+import Plug from './Plug';
+import UserCard from './UserCard';
 
-function Main() {
+function Main({ cards, isLoadingCards, isAllCards, isError, onCardEdit, onCardDelete }) {
   return (
-    <main className="main">Main</main>
+    <section className="elements" >
+      {isError && isError.status && <Plug text={isError.message} />}
+      {!!cards.length &&
+        <ul className={`cards ${isAllCards && 'cards_quantity_max'}`}>
+          {
+            cards.map(card => (
+              <UserCard
+                card={card}
+                key={card.id}
+                onCardEdit={onCardEdit}
+                onCardDelete={onCardDelete}
+              />
+            ))}
+        </ul>
+      }
+      {isLoadingCards && <Preloader />}
+    </section >
   );
 }
 

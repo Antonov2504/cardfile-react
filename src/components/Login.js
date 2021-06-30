@@ -15,7 +15,7 @@ function Login({ isLoading, isErrorResponse, handleLogin }) {
 
   return (
     <section className="sign">
-      <div className="logo logo_align_left">B</div>
+      <div className="logo logo_align_center">B</div>
       <p className="sign__heading">Рады видеть!</p>
       <form
         name="login-form"
@@ -33,7 +33,7 @@ function Login({ isLoading, isErrorResponse, handleLogin }) {
               autoComplete="off"
             />
             {validationErrors.email &&
-              <p className="sign__validity">{validationErrors.email}</p>
+              <p className="validity-error">{validationErrors.email}</p>
             }
           </label>
           <label className="sign__label">
@@ -46,11 +46,11 @@ function Login({ isLoading, isErrorResponse, handleLogin }) {
               onChange={handleChange}
             />
             {validationErrors.password &&
-              <p className="sign__validity">{validationErrors.password}</p>
+              <p className="validity-error">{validationErrors.password}</p>
             }
           </label>
         </fieldset>
-        {isErrorResponse.status && <p className="sign__error">{isErrorResponse.message}</p>}
+        {isErrorResponse.status && <p className="server-error">{isErrorResponse.message}</p>}
         {isLoading && <div className="sign__preloader" />}
         {!isLoading && <button type="submit" className="sign__button" disabled={!isValidForm}>Войти</button>}
       </form>

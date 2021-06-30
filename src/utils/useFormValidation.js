@@ -17,7 +17,6 @@ function useFormValidation(inputs, validateData) {
     const enableFormValidation = Object.keys(enableValidation).every(key => {                                               // Валидация формы завершена, все поля формы провалидированы
       return enableValidation[key];
     });
-
     // Если включена валидация поля, выполнить валидацию значения поля, записать ошибки
     if (enableValidation[validationInput.name]) {
       setValidationErrors({
@@ -37,10 +36,10 @@ function useFormValidation(inputs, validateData) {
 
   // Валидация формы, проверка при изменении Стейта ошибок валидации
   useEffect(() => {
-    const emptyValidationErrors = Object.keys(validationErrors).every(key => {                                                  // Ошибки валидации отсутствуют
+    const emptyValidationErrors = Object.keys(validationErrors).every(key => {                                              // Ошибки валидации отсутствуют
       return !validationErrors[key];
     });
-    enableValidation.form && emptyValidationErrors ? setIsValidForm(true) : setIsValidForm(false);                              // Если провалидированы все поля формы и отутствуют ошибки валидации - форма валидна
+    enableValidation.form && emptyValidationErrors ? setIsValidForm(true) : setIsValidForm(false);                          // Если провалидированы все поля формы и отутствуют ошибки валидации - форма валидна
   }, [validationErrors]);
 
   // При первой загрузке компонента форма невалидна
@@ -69,6 +68,27 @@ function useFormValidation(inputs, validateData) {
     }
   }
 
+  // Задать значения инпутов
+  function setFormInputValues(inputs) {
+    setEnableValidation({
+      all: true
+    });
+    setInputValues({
+      ...inputValues,
+      ...inputs
+    });
+  }
+
+  // Очистить поля формы
+  function clearFormInputValues() {
+    setInputValues({});
+  }
+
+  // Очистить ошибки валидации
+  function clearValidationErrors() {
+    setValidationErrors({});
+  }
+
   // Изменение Стейтов значений инпутов, валидации инпутов и валидируемого инпута при изменении значений инпутов
   function handleChange(evt) {
     const { name, value } = evt.target;
@@ -81,6 +101,9 @@ function useFormValidation(inputs, validateData) {
 
   return {
     inputValues,
+    setFormInputValues,
+    clearFormInputValues,
+    clearValidationErrors,
     validationErrors,
     handleChange,
     runFormValidation,

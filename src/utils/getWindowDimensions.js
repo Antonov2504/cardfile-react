@@ -1,8 +1,11 @@
 function getWindowDimensions() {
-  const { innerWidth: width, innerHeight: height } = window;
+  const { innerWidth: width, innerHeight: height, pageYOffset } = window;
+  const { scrollHeight } = document.body;
   return {
     width,
-    height
+    height,
+    pageYOffset,
+    scrollHeight,
   }
 }
 
