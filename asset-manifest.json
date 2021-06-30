@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "../static/css/main.8b0d9e9d.chunk.css",
-    "main.js": "../static/js/main.3f569227.chunk.js",
-    "main.js.map": "../static/js/main.3f569227.chunk.js.map",
-    "runtime-main.js": "../static/js/runtime-main.1aabc78c.js",
-    "runtime-main.js.map": "../static/js/runtime-main.1aabc78c.js.map",
-    "static/js/2.30cc6492.chunk.js": "../static/js/2.30cc6492.chunk.js",
-    "static/js/2.30cc6492.chunk.js.map": "../static/js/2.30cc6492.chunk.js.map",
-    "static/js/3.66c3889c.chunk.js": "../static/js/3.66c3889c.chunk.js",
-    "static/js/3.66c3889c.chunk.js.map": "../static/js/3.66c3889c.chunk.js.map",
-    "index.html": "../index.html",
-    "static/css/main.8b0d9e9d.chunk.css.map": "../static/css/main.8b0d9e9d.chunk.css.map",
-    "static/js/2.30cc6492.chunk.js.LICENSE.txt": "../static/js/2.30cc6492.chunk.js.LICENSE.txt",
-    "static/media/index.css": "../static/media/trash-alt-solid.90412105.svg",
-    "static/media/no-photo.9b04560d.svg": "../static/media/no-photo.9b04560d.svg"
+    "main.css": "/cardfile-react/index.html/static/css/main.25f56cac.chunk.css",
+    "main.js": "/cardfile-react/index.html/static/js/main.3f569227.chunk.js",
+    "main.js.map": "/cardfile-react/index.html/static/js/main.3f569227.chunk.js.map",
+    "runtime-main.js": "/cardfile-react/index.html/static/js/runtime-main.db541120.js",
+    "runtime-main.js.map": "/cardfile-react/index.html/static/js/runtime-main.db541120.js.map",
+    "static/js/2.30cc6492.chunk.js": "/cardfile-react/index.html/static/js/2.30cc6492.chunk.js",
+    "static/js/2.30cc6492.chunk.js.map": "/cardfile-react/index.html/static/js/2.30cc6492.chunk.js.map",
+    "static/js/3.66c3889c.chunk.js": "/cardfile-react/index.html/static/js/3.66c3889c.chunk.js",
+    "static/js/3.66c3889c.chunk.js.map": "/cardfile-react/index.html/static/js/3.66c3889c.chunk.js.map",
+    "index.html": "/cardfile-react/index.html/index.html",
+    "static/css/main.25f56cac.chunk.css.map": "/cardfile-react/index.html/static/css/main.25f56cac.chunk.css.map",
+    "static/js/2.30cc6492.chunk.js.LICENSE.txt": "/cardfile-react/index.html/static/js/2.30cc6492.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/cardfile-react/index.html/static/media/trash-alt-solid.90412105.svg",
+    "static/media/no-photo.9b04560d.svg": "/cardfile-react/index.html/static/media/no-photo.9b04560d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1aabc78c.js",
+    "static/js/runtime-main.db541120.js",
     "static/js/2.30cc6492.chunk.js",
-    "static/css/main.8b0d9e9d.chunk.css",
+    "static/css/main.25f56cac.chunk.css",
     "static/js/main.3f569227.chunk.js"
   ]
 }
