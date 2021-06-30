@@ -8,7 +8,7 @@ function ProtectedRoute({ component: Component, ...props }) {
   const value = useContext(AppContext);
   return (
     <Route>
-      <Header />
+      <Header {...props} />
       {
         value.loggedIn ? <Component {...props} /> : <Redirect to="/signin" />
       }

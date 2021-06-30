@@ -1,0 +1,26 @@
+.popup__container {
+  width: 100%;
+  max-height: 100%;
+  max-width: 280px;
+  padding: 25px 15px;
+  background-color: white;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+@media screen and (min-width: 500px) and (min-height: 400px) {
+  .popup__container {
+    max-width: 430px;
+    padding: 35px;
+    overflow-y: initial;
+  }
+}
+
+@media screen and (min-height: 500px) {
+  .popup__container {
+    overflow-y: initial;
+  }
+}

@@ -1,0 +1,31 @@
+.popup__button_type_close-popup {
+  width: 40px;
+  height: 40px;
+  background-image: url('./../../../../images/close.svg');
+  background-size: cover;
+  background-color: #3456f3;
+  border: 0;
+  transform: translate(0, 0);
+  position: absolute;
+  top: 5vh;
+  right: 3vw;
+}
+
+@media screen and (min-width: 600px) and (min-height: 400px) {
+  .popup__button_type_close-popup {
+    background-size: auto;
+    background-color: transparent;
+    transform: translate(0, 0);
+    top: 3vh;
+    right: -8vw;  
+  }
+}
+
+@media screen and (min-height: 500px) {
+  .popup__button_type_close-popup {
+    transform: translate(50%, 50%);
+    background-color: transparent;
+    top: -11vh;
+    right: 50%;
+  }
+}

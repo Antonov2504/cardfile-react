@@ -1,0 +1,12 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -7px rgb(0 0 0 / 10%), 0 4px 30px -9px rgb(0 0 0 / 20%);
+  overflow: hidden;
+  position: relative;
+}

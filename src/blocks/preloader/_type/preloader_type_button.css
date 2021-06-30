@@ -1,0 +1,12 @@
+.preloader_type_button {
+  display: block;
+  background-color: #3456f3;
+  background-image: url('../../../images/preloader.svg');
+  background-position: center;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  box-sizing: border-box;
+  cursor: default;
+  opacity: .8;
+}
